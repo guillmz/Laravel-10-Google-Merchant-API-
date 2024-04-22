@@ -25,17 +25,17 @@
     },
     "autoload": {
         "psr-4": {
-            "MOIREI\\GoogleMerchantApi\\": "src"
+            "GUILLMZ\\GoogleMerchantApi\\": "src"
         }
     },
     "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
-                "MOIREI\\GoogleMerchantApi\\GoogleMerchantApiServiceProvider"
+                "GUILLMZ\\GoogleMerchantApi\\GoogleMerchantApiServiceProvider"
             ],
             "aliases": {
-                "ProductsApi": "MOIREI\\GoogleMerchantApi\\Facades\\ProductsApi"
+                "ProductsApi": "GUILLMZ\\GoogleMerchantApi\\Facades\\ProductsApi"
             }
         }
     }
