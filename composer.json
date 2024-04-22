@@ -5,16 +5,15 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Augustus Okoye",
-            "email": "augustusokoye@moirei.com",
+            "name": "FGuillen",
+            "email": "info@modulabs.dev",
             "role": "Developer"
         }
     ],
     "keywords":[
         "Laravel",
         "Google Merchant API",
-        "Google Shopping API",
-        "moirei.com"
+        "Google Shopping API"
     ],
     "require": {
         "php": "^7.2|^8.0",
