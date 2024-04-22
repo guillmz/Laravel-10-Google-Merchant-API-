@@ -67,7 +67,7 @@ Although backwards compatible, be sure to update your config to be able to use m
 Via composer:
 
 ```bash
-composer require moirei/laravel-google-merchant-api
+composer require modulabs/laravel-google-merchant
 ```
 
 Install the service provider (skip for Laravel>=5.5);
