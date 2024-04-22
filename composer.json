@@ -2,8 +2,6 @@
     "name": "modulabs/laravel-google-merchant",
     "description": "Laravel Google Merchant Products API for Google Shopping.",
     "homepage": "https://github.com/guillmz/laravel-google-merchant",
-    "version": "1.0.0",
-    
     "license": "MIT",
     "authors": [
         {
@@ -45,5 +43,5 @@
             "url": "https://github.com/guillmz/laravel-google-merchant"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "stable"
 }
