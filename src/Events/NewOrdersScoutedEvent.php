@@ -1,11 +1,11 @@
 <?php
 
-namespace MOIREI\GoogleMerchantApi\Events;
+namespace GUILLMZ\GoogleMerchantApi\Events;
 
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Broadcasting\InteractsWithSockets;
-use MOIREI\GoogleMerchantApi\Contents\Order\Order;
+use GUILLMZ\GoogleMerchantApi\Contents\Order\Order;
 
 class NewOrdersScoutedEvent
 {

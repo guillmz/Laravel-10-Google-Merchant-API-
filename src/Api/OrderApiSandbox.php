@@ -1,10 +1,10 @@
 <?php
 
-namespace MOIREI\GoogleMerchantApi\Api;
+namespace GUILLMZ\GoogleMerchantApi\Api;
 
-use MOIREI\GoogleMerchantApi\Contents\Order\Order;
-use MOIREI\GoogleMerchantApi\Contents\Order\OrderTest;
-use MOIREI\GoogleMerchantApi\Contents\Product\Product;
+use GUILLMZ\GoogleMerchantApi\Contents\Order\Order;
+use GUILLMZ\GoogleMerchantApi\Contents\Order\OrderTest;
+use GUILLMZ\GoogleMerchantApi\Contents\Product\Product;
 
 class OrderApiSandbox extends OrderApi{
 
@@ -74,7 +74,7 @@ class OrderApiSandbox extends OrderApi{
      * @param  string  $country
      * @return mix
 	 * @throws \GuzzleHttp\Exception\ClientException
-     * @throws MOIREI\GoogleMerchantApi\Exceptions\InvalidOrderInput
+     * @throws GUILLMZ\GoogleMerchantApi\Exceptions\InvalidOrderInput
      */
     public function create($order, $country = 'US')
     {
@@ -94,7 +94,7 @@ class OrderApiSandbox extends OrderApi{
      * @param  Closure|OrderTest|string  $order callback, TestOrder or the ID
      * @return mix
 	 * @throws \GuzzleHttp\Exception\ClientException
-     * @throws MOIREI\GoogleMerchantApi\Exceptions\InvalidOrderInput
+     * @throws GUILLMZ\GoogleMerchantApi\Exceptions\InvalidOrderInput
      */
     public function advance($order)
     {
@@ -120,7 +120,7 @@ class OrderApiSandbox extends OrderApi{
      * @param  string $reason_text
      * @return mix
 	 * @throws \GuzzleHttp\Exception\ClientException
-     * @throws MOIREI\GoogleMerchantApi\Exceptions\InvalidOrderInput
+     * @throws GUILLMZ\GoogleMerchantApi\Exceptions\InvalidOrderInput
      */
     public function cancel($order, string $reason = 'other', string $reason_text = 'Order cancel test')
     {
@@ -153,7 +153,7 @@ class OrderApiSandbox extends OrderApi{
      * @param  Closure|array  $items
      * @return mix
 	 * @throws \GuzzleHttp\Exception\ClientException
-     * @throws MOIREI\GoogleMerchantApi\Exceptions\InvalidOrderInput
+     * @throws GUILLMZ\GoogleMerchantApi\Exceptions\InvalidOrderInput
      */
     public function createReturn($order, $items)
     {
@@ -185,7 +185,7 @@ class OrderApiSandbox extends OrderApi{
      *
      * @param OrderTest|Closure $order
      * @return OrderTest
-     * @throws MOIREI\GoogleMerchantApi\Exceptions\InvalidOrderTestInput
+     * @throws GUILLMZ\GoogleMerchantApi\Exceptions\InvalidOrderTestInput
      */
     static protected function resolveOrderTestInput($order){
         if (is_callable($order)) {

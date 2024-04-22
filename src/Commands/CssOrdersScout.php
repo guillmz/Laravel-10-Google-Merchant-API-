@@ -1,9 +1,9 @@
 <?php
 
-namespace MOIREI\GoogleMerchantApi\Commands;
+namespace GUILLMZ\GoogleMerchantApi\Commands;
 
 use Illuminate\Console\Command;
-use MOIREI\GoogleMerchantApi\Facades\OrderApi;
+use GUILLMZ\GoogleMerchantApi\Facades\OrderApi;
 
 class CssOrdersScout extends Command
 {

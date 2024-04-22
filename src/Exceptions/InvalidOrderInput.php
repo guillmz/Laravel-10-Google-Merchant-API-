@@ -1,8 +1,8 @@
 <?php
 
-namespace MOIREI\GoogleMerchantApi\Exceptions;
+namespace GUILLMZ\GoogleMerchantApi\Exceptions;
 
 class InvalidOrderInput extends \Exception
 {
-    protected $message = 'MOIREI\GoogleMerchantApi: The order content type is invalid.';
+    protected $message = 'GUILLMZ\GoogleMerchantApi: The order content type is invalid.';
 }

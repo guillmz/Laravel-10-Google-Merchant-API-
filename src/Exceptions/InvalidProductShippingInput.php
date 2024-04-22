@@ -1,8 +1,8 @@
 <?php
 
-namespace MOIREI\GoogleMerchantApi\Exceptions;
+namespace GUILLMZ\GoogleMerchantApi\Exceptions;
 
 class InvalidProductShippingInput extends \Exception
 {
-    protected $message = 'MOIREI\GoogleMerchantApi: The product shipping content type is invalid.';
+    protected $message = 'GUILLMZ\GoogleMerchantApi: The product shipping content type is invalid.';
 }

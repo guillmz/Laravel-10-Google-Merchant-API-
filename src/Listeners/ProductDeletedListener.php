@@ -1,8 +1,8 @@
 <?php
 
-namespace MOIREI\GoogleMerchantApi\Listeners;
+namespace GUILLMZ\GoogleMerchantApi\Listeners;
 
-use MOIREI\GoogleMerchantApi\Facades\ProductApi;
+use GUILLMZ\GoogleMerchantApi\Facades\ProductApi;
 
 class ProductDeletedListener
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace MOIREI\GoogleMerchantApi\Contents\Product;
+namespace GUILLMZ\GoogleMerchantApi\Contents\Product;
 
-use MOIREI\GoogleMerchantApi\Contents\BaseContent;
-use MOIREI\GoogleMerchantApi\Contents\Price;
+use GUILLMZ\GoogleMerchantApi\Contents\BaseContent;
+use GUILLMZ\GoogleMerchantApi\Contents\Price;
 
 class ProductShipping extends BaseContent
 {
@@ -38,7 +38,7 @@ class ProductShipping extends BaseContent
             $callback = $price;
             $callback($price = new Price);
         }elseif(!($price instanceof Price)){
-            throw new \MOIREI\GoogleMerchantApi\Exceptions\InvalidPriceInput;
+            throw new \GUILLMZ\GoogleMerchantApi\Exceptions\InvalidPriceInput;
         }
 
         $this->attributes[ 'price' ] = $price->get();

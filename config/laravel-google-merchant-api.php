@@ -137,5 +137,5 @@ return [
 	| Default product currency
 	*/
 
-    'default_currency' => 'AUD',
+    'default_currency' => 'MXN',
 ];

@@ -1,8 +1,8 @@
 <?php
 
-namespace MOIREI\GoogleMerchantApi\Contents\Order;
+namespace GUILLMZ\GoogleMerchantApi\Contents\Order;
 
-use MOIREI\GoogleMerchantApi\Contents\BaseContent;
+use GUILLMZ\GoogleMerchantApi\Contents\BaseContent;
 use Carbon\Carbon;
 
 class OrderTest extends Order
