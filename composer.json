@@ -38,5 +38,11 @@
                 "ProductsApi": "GUILLMZ\\GoogleMerchantApi\\Facades\\ProductsApi"
             }
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/guillmz/laravel-google-merchant"
+        }
+    ]
 }
